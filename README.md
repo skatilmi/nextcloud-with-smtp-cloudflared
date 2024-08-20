@@ -7,7 +7,7 @@
 docker run -d \
   --name nextcloud \
   --restart unless-stopped \
-  -p 7777:80 \
+  -p 12345:80 \
   -e NEXTCLOUD_TRUSTED_DOMAINS='*' \
   -e NEXTCLOUD_DEFAULT_LANGUAGE=de \
   -e NEXTCLOUD_ADMIN_USER=youradminusername \
